@@ -3,6 +3,7 @@
   "compilerOptions": {
     "lib": ["ESNext"],
     "noEmit": true,
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true
   }
 }
