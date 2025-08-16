@@ -13,8 +13,7 @@ func TestLergestGoodInteger(t *testing.T) {
 		{testCase: "222", testResult: "222"},
 	}
 
-	for testIdx := 0; testIdx < len(tests); testIdx++ {
-		test := tests[testIdx]
+	for _, test := range tests {
 		if test.testResult != largestGoodInteger(test.testCase) {
 			t.Errorf("Test failed for %s", test.testCase)
 		}
