@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { setZeroes } from "./73.ts";
+import { setZeroes } from "./0073.ts";
 
 describe("problem 73", () => {
   it("case 1", () => {
